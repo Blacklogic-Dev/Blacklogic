@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlackLogic - Projects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #00d9ff;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #00eaff;
+      text-shadow: 0 0 10px #00eaff50;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #111;
+      border: 1px solid #00d9ff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 10px #00d9ff50;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 20px #00d9ff80;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .card h2, .card h3 {
+      color: #00eaff;
+      margin: 10px 0;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+      color: #ccc;
+    }
+
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      background: #111;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-top: 2px solid #00f2ff;
+      z-index: 1000;
+    }
+
+    .bottom-nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      text-align: center;
+      flex: 1;
+    }
+
+    .bottom-nav a i {
+      font-size: 20px;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .bottom-nav a span {
+      font-size: 12px;
+    }
+
+    @media (max-width: 600px) {
+      .card img {
+        height: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- AI & ML Projects -->
+  <div class="section">
+    <h2 class="title">AI & ML Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="PARAMED.png" alt="ParamedAI">
+        <h2>ParamedAI</h2>
+        <p>AI app developed to detect health risks and medical needs using advanced machine learning algorithms.</p>
+      </div>
+      <div class="card">
+        <img src="Logo3.png" alt="Viral Predictor App">
+        <h2>Viral Predictor App</h2>
+        <p>Predicts whether a video will go viral using custom datasets and advanced ML algorithms.</p>
+      </div>
+      <div class="card">
+        <img src="Logo5.png" alt="AgriMind Africa">
+        <h2>AgriMind Africa</h2>
+        <p>Farming dataset solution using AI to optimize agricultural practices and outputs.</p>
+      </div>
+      <div class="card">
+        <img src="Logic04.png" alt="Logic Force A04">
+        <h2>Logic Force A04</h2>
+        <p>AI-powered personalized chatbot "LogicLaw" blends law and tech to create an intelligent community solution.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Development Projects -->
+  <div class="section">
+    <h2 class="title">App Development</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="Royal.jpg" alt="RoyaLogic Estate App">
+        <h2>RoyaLogic Estate App</h2>
+        <p>Smart home & IoT system app for modern estates. Optimized for convenience and tech integration.</p>
+      </div>
+      <div class="card">
+        <img src="BlackLord.jpg" alt="Black Empowerment App">
+        <h2>Black Empowerment App</h2>
+        <p>Bridge the gap between dreams and career exploration with AI chatbot "Freedom".</p>
+      </div>
+      <div class="card">
+        <img src="KasiTaxi.jpg" alt="KasiTaxi App">
+        <h2>KasiTaxi App</h2>
+        <p>Smart transport app for route mapping, bookings, and fare calculation tailored for South Africa.</p>
+      </div>
+      <div class="card">
+        <img src="BeautyLogic.jpg" alt="BeautyLogic E-Commerce App">
+        <h2>BeautyLogic E-Commerce App</h2>
+        <p>E-commerce platform showcasing professional tech deals and demonstrating app development skills.</p>
+      </div>
+      <div class="card">
+        <img src="Logicforce.jpg" alt="Logic Force A04 App">
+        <h2>Logic Force A04 App</h2>
+        <p>Features news blogs, lost & found reporting, and AI chatbot LogicLaw for societal awareness.</p>
+      </div>
+      <div class="card">
+        <img src="Soweto.jpg" alt="Soweto '76 App">
+        <h2>Soweto '76 App</h2>
+        <p>Digital museum app honoring heroes of the June 16, 1976 uprising. Empowering youth through education.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Graphic Design Projects -->
+  <div class="section">
+    <h2 class="title">Graphic Design Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="RoyalX.png" alt="RoyalLogic">
+        <h2>RoyalLogic</h2>
+        <p>Branding for RoyaLogic. Clean layout, bold visuals, professional presentation.</p>
+      </div>
+      <div class="card">
+        <img src="LogicMe.png" alt="Logic Force X">
+        <h2>Logic Force X</h2>
+        <p>Branding for AI and surveillance solutions. Strong visuals and professional design.</p>
+      </div>
+      <div class="card">
+        <img src="Mkholo.png" alt="Mkholo Construction">
+        <h2>Mkholo Construction</h2>
+        <p>Branding for construction and plant hire. Clean, professional visuals.</p>
+      </div>
+      <div class="card">
+        <img src="Siblessed_20250323_002410_0000.png" alt="Siblessed Logo">
+        <h2>Siblessed</h2>
+        <p>Minimalist logo design for clothing line with meaningful brand identity.</p>
+      </div>
+      <div class="card">
+        <img src="GO-FORWARD .png" alt="Church Poster">
+        <h2>Go Forward Poster</h2>
+        <p>Vibrant church event poster with theme-based creative elements.</p>
+      </div>
+      <div class="card">
+        <img src="Poster.png" alt="Business Poster">
+        <h2>Business Flyer</h2>
+        <p>Professional marketing flyer design for local business branding.</p>
+      </div>
+      <div class="card">
+        <img src="Project.png" alt="Project Poster">
+        <h2>Project Poster</h2>
+        <p>Modern variation of Mkholo Construction poster with a clean design finish.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Web Development Projects -->
+  <div class="section">
+    <h2 class="title">Web Development Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="Music.jpg" alt="MillieTune">
+        <h2>MillieTune Music Platform</h2>
+        <p>Vibrant music streaming platform with playlist management and modern UI/UX.</p>
+      </div>
+      <div class="card">
+        <img src="Black.jpg" alt="Black Empowerment App Web">
+        <h2>Black Empowerment Platform</h2>
+        <p>Online platform offering mentorship, programs, and tools for youth empowerment.</p>
+      </div>
+      <div class="card">
+        <img src="Dozer.jpg" alt="Mkholo Construction Website">
+        <h2>Mkholo Construction Website</h2>
+        <p>Showcases construction plant hire services with online booking system.</p>
+      </div>
+      <div class="card">
+        <img src="Work.jpg" alt="Dr Pixely Ka Seme">
+        <h2>Dr Pixely Ka Seme System</h2>
+        <p>Community tech solution for tracking utilities, reporting, and resident registration.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Navigation -->
+  <div class="bottom-nav">
+    <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+    <a href="certificates.html"><i class="fas fa-certificate"></i><span>Certs</span></a>
+    <a href="projects.html"><i class="fas fa-briefcase"></i><span>Projects</span></a>
+    <a href="live.html"><i class="fas fa-link"></i><span>Live</span></a>
+  </div>
+
+</body>
+</html>
